@@ -3,5 +3,5 @@
 import sys
 
 print("Введіть ім'я")
-x = input()
-print("Привіт, " + x)
+name = input()
+print("Привіт, " + name)
