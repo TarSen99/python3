@@ -10,6 +10,7 @@ def UI_input_string() -> str:
 def UI_print_result(result: list):
     '''prints result'''
     print("The lowest word in string is " + result[0])
+    print("The len is " + str(result[1]))
 
 def find_min_len(currString: list) -> str:
     wordsLength = map(lambda x: len(x), currString)
